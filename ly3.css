@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 100px 200px 200px 200px;
+    background-color: beige;
+}
+
+div {
+    margin: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bar {
+    flex: 1;
+}
+
+.hua {
+    display: flex;
+    background-color: lightblue;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.body {
+    display: flex;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.body>div {
+    flex: 1 0 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.footer {
+    background-color: lightskyblue;
+    padding: 30px;
+    text-align: center;
+}
